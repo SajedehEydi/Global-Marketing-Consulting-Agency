@@ -4,12 +4,12 @@
 
 # first page
 
-![1](https://github.com/SajedehEydi/Professional-branding-design-services./assets/155808160/e68e331c-d4e6-4aa1-9346-072e7ef224d1)
+![image1](https://github.com/SajedehEydi/Global-Marketing-Consulting-Agency/assets/155808160/3e281543-e30c-44e8-9b53-74b3a45f3bbe)
 
 
 # other page
 
-![2](https://github.com/SajedehEydi/Professional-branding-design-services./assets/155808160/8da28a2e-93c3-40b7-a6b4-122f27d878cd)
+![image2](https://github.com/SajedehEydi/Global-Marketing-Consulting-Agency/assets/155808160/904497c6-8c59-40a4-bb7b-2d241a228098)
 
 - [Demo Project]( https://sajedeheydi.github.io/Global-Marketing-Consulting-Agency/)
 
