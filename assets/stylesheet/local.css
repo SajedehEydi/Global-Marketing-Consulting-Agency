@@ -1,0 +1,925 @@
+.one {
+  width: 100%;
+  height: 100vh;
+}
+.one > .row {
+  width: 100%;
+  height: 100%;
+}
+.one > .row > div {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.one > .row > div:nth-of-type(1) {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.one > .row > div:nth-of-type(1)::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.543);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.one > .row > div:nth-of-type(1) > video {
+  height: 100%;
+  width: 100%;
+  scale: 1.25;
+}
+.one > .row > div:nth-of-type(1) > span {
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+.one > .row > div:nth-of-type(1) > span:hover > nav {
+  right: 200px;
+}
+.one > .row > div:nth-of-type(1) > span > * {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+.one > .row > div:nth-of-type(1) > span > nav {
+  transition: 1s;
+}
+.one > .row > div:nth-of-type(1) > span > nav > * {
+  height: 30px;
+  display: flex;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+}
+.one > .row > div:nth-of-type(1) > span > nav > p {
+  font-size: 30px;
+  color: black;
+  margin-bottom: 30px;
+  font-style: italic;
+  transition: 0.4s;
+}
+.one > .row > div:nth-of-type(1) > span > nav > p:hover {
+  color: green;
+}
+.one > .row > div:nth-of-type(1) > span > nav > div > a {
+  margin: 0 10px;
+  background-color: green;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.one > .row > div:nth-of-type(1) > span > nav > div > a:hover {
+  background-color: white;
+}
+.one > .row > div:nth-of-type(1) > span > nav > div > a > img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.one > .row > div:nth-of-type(1) > span > span {
+  z-index: 1;
+  cursor: pointer;
+}
+.one > .row > div:nth-of-type(1) > span > span > figure {
+  width: 200px;
+  height: 200px;
+  border: 4px solid green;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.one > .row > div:nth-of-type(1) > span > span > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+.one > .row > div:nth-of-type(2) {
+  width: 60%;
+  height: 60%;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  justify-content: center;
+  align-items: center;
+}
+.one > .row > div:nth-of-type(2) > * {
+  width: 100%;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.one > .row > div:nth-of-type(2) > h3 {
+  font-size: 65px;
+  height: 150px;
+}
+.one > .row > div:nth-of-type(2) > p {
+  font-size: 35px;
+  height: 140px;
+  padding: 0 50px;
+}
+.one > .row > div:nth-of-type(2) > span {
+  height: 70px;
+}
+.one > .row > div:nth-of-type(2) > span a {
+  width: 250px;
+  height: 65px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: #119D60;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.one > .row > div:nth-of-type(2) > span a:hover::after {
+  top: 0;
+  border-radius: 0;
+}
+.one > .row > div:nth-of-type(2) > span a::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.1176470588);
+  border-radius: 50% 50% 0 0;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  transition: 0.2s;
+}
+.one > .row > div:nth-of-type(3) {
+  height: 12vh;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.272);
+  z-index: 2;
+}
+.one > .row > div:nth-of-type(3) > * {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.one > .row > div:nth-of-type(3) > figure {
+  width: 15%;
+  justify-content: flex-end;
+  padding-left: 30px;
+}
+.one > .row > div:nth-of-type(3) > figure > img {
+  cursor: pointer;
+}
+.one > .row > div:nth-of-type(3) > nav {
+  width: 55%;
+}
+.one > .row > div:nth-of-type(3) > nav > ul {
+  width: 100%;
+  height: 100%;
+  justify-content: flex-end;
+  padding-left: 20px;
+}
+.one > .row > div:nth-of-type(3) > nav > ul > li {
+  height: 100%;
+  margin: 0 20px;
+}
+.one > .row > div:nth-of-type(3) > nav > ul > li:last-child {
+  margin-right: 70px;
+}
+.one > .row > div:nth-of-type(3) > nav > ul > li > a {
+  font-size: 20px;
+  color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.one > .row > div:nth-of-type(3) > nav > ul > li > a:hover::after {
+  background-color: green;
+}
+.one > .row > div:nth-of-type(3) > nav > ul > li > a::after {
+  content: "";
+  width: 7px;
+  height: 7px;
+  background-color: rgba(0, 128, 0, 0);
+  border-radius: 50%;
+  left: 0;
+  top: 85%;
+  position: absolute;
+  transition: 0.4s;
+}
+.one > .row > div:nth-of-type(3) > span {
+  width: 30%;
+}
+.one > .row > div:nth-of-type(3) > span > a {
+  margin: 0 2px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
+.one > .row > div:nth-of-type(3) > span > a:first-child {
+  margin-right: 30px;
+}
+.one > .row > div:nth-of-type(3) > span > a:hover > figure {
+  background-color: rgb(255, 255, 255);
+}
+.one > .row > div:nth-of-type(3) > span > a > figure {
+  width: 40px;
+  height: 40px;
+  border: 2px solid green;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.one > .row > div:nth-of-type(3) > span > a > figure > img {
+  width: 30px;
+  height: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.two {
+  width: 100%;
+  height: 130vh;
+  background-image: url(../img/decoration-2.svg);
+  background-position: bottom 0 left 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.two > .row {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.two > .row > * {
+  width: 100%;
+}
+.two > .row > div {
+  justify-content: center;
+  align-items: center;
+}
+.two > .row > div:nth-of-type(1) {
+  height: 55%;
+  justify-content: center;
+  align-items: center;
+}
+.two > .row > div:nth-of-type(1) > * {
+  text-align: center;
+}
+.two > .row > div:nth-of-type(1) > h3 {
+  width: 50%;
+  font-size: 55px;
+  margin-top: 100px;
+}
+.two > .row > div:nth-of-type(1) > p {
+  width: 60%;
+  font-size: 30px;
+  line-height: 40px;
+  color: rgb(62, 62, 62);
+}
+.two > .row > div:nth-of-type(2) {
+  height: 25%;
+}
+.two > .row > div:nth-of-type(2) > span {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+.two > .row > div:nth-of-type(2) > span > * {
+  text-align: center;
+}
+.two > .row > div:nth-of-type(2) > span > figure > img {
+  width: 25px;
+  height: 25px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.two > .row > div:nth-of-type(2) > span > h5 {
+  font-size: 20px;
+  padding: 0 70px;
+  color: rgb(75, 75, 75);
+  line-height: 35px;
+}
+.two > .row > div:nth-of-type(2) > span > p {
+  color: rgb(98, 98, 98);
+}
+.two > .row > div:nth-of-type(3) {
+  height: 20%;
+  justify-content: center;
+  align-items: center;
+}
+.two > .row > div:nth-of-type(3) > nav {
+  width: 230px;
+  height: 40px;
+  border-radius: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  transition: 0.4s;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 10px 30px 0 rgba(0, 0, 0, 0.2);
+}
+.two > .row > div:nth-of-type(3) > nav:hover > a:nth-of-type(1) {
+  top: -50px;
+}
+.two > .row > div:nth-of-type(3) > nav:hover > a:nth-of-type(2) {
+  top: 0;
+}
+.two > .row > div:nth-of-type(3) > nav > * {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.two > .row > div:nth-of-type(3) > nav > figure {
+  width: 40px;
+}
+.two > .row > div:nth-of-type(3) > nav > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+}
+.two > .row > div:nth-of-type(3) > nav > a {
+  width: 190px;
+  position: absolute;
+  transition: 0.4s;
+}
+.two > .row > div:nth-of-type(3) > nav > a:nth-of-type(1) {
+  top: 0;
+  right: 0;
+}
+.two > .row > div:nth-of-type(3) > nav > a:nth-of-type(2) {
+  top: 100%;
+  right: 0;
+}
+
+.three {
+  width: 100%;
+  height: 110vh;
+  background-image: url(../img/section-bg-1.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.three::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: linear-gradient(90deg, #119d60 40%, transparent 87%);
+}
+.three > .row {
+  width: 50%;
+  height: 100%;
+  z-index: 1;
+  align-content: center;
+  justify-content: flex-end;
+}
+.three > .row > div {
+  width: 85%;
+  align-content: center;
+}
+.three > .row > div:nth-of-type(1) {
+  height: 50%;
+  align-content: flex-start;
+}
+.three > .row > div:nth-of-type(1) > * {
+  width: 100%;
+  color: white;
+}
+.three > .row > div:nth-of-type(1) > h3 {
+  height: 40%;
+  font-size: 50px;
+}
+.three > .row > div:nth-of-type(1) > p {
+  font-size: 30px;
+  padding-right: 40px;
+  margin-bottom: 60px;
+}
+.three > .row > div:nth-of-type(1) > span {
+  display: flex;
+  flex-wrap: wrap;
+}
+.three > .row > div:nth-of-type(1) > span > a {
+  width: 250px;
+  height: 70px;
+  background-color: white;
+  border-radius: 10px;
+  color: #119D60;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.three > .row > div:nth-of-type(1) > span > a:hover::after {
+  top: 0;
+  border-radius: 0;
+}
+.three > .row > div:nth-of-type(1) > span > a::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(17, 157, 96, 0.2823529412);
+  border-radius: 50% 50% 0 0;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  transition: 0.2s;
+}
+.three > .row > div:nth-of-type(2) {
+  height: 20%;
+  align-content: space-evenly;
+}
+.three > .row > div:nth-of-type(2) > * {
+  width: 100%;
+}
+.three > .row > div:nth-of-type(2) > p {
+  font-size: 18px;
+  color: white;
+}
+.three > .row > div:nth-of-type(2) > div > figure {
+  width: 100px;
+  height: 70%;
+  display: flex;
+  margin: 0 20px;
+}
+.three > .row > div:nth-of-type(2) > div > figure:nth-of-type(1) {
+  margin-left: 0;
+}
+.three > .row > div:nth-of-type(2) > div > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.four {
+  width: 100%;
+  height: 140vh;
+}
+.four > .row {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.four > .row > div {
+  width: 100%;
+}
+.four > .row > div:first-child {
+  height: 40%;
+  justify-content: center;
+  align-content: center;
+  padding: 0 300px;
+}
+.four > .row > div:first-child > * {
+  width: 100%;
+  text-align: center;
+}
+.four > .row > div:first-child > h2 {
+  font-size: 60px;
+}
+.four > .row > div:first-child > p {
+  width: 100%;
+  font-size: 30px;
+  margin-top: 50px;
+  line-height: 40px;
+  color: rgb(78, 78, 78);
+}
+.four > .row > div:last-child {
+  height: 60%;
+}
+.four > .row > div:last-child > article {
+  display: flex;
+  flex-wrap: wrap;
+  width: 25%;
+  height: 100%;
+  border: 1px solid green;
+  padding: 0 50px;
+  align-content: space-evenly;
+}
+.four > .row > div:last-child > article:nth-of-type(1) > figure {
+  background-color: #CA346B;
+}
+.four > .row > div:last-child > article:nth-of-type(2) > figure {
+  background-color: #EAA92B;
+}
+.four > .row > div:last-child > article:nth-of-type(3) > figure {
+  background-color: #119D60;
+}
+.four > .row > div:last-child > article:nth-of-type(4) > figure {
+  background-color: #19C4C4;
+}
+.four > .row > div:last-child > article > figure {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.four > .row > div:last-child > article > figure > img {
+  width: 60px;
+  height: 60px;
+}
+.four > .row > div:last-child > article > h3 {
+  font-size: 25px;
+}
+.four > .row > div:last-child > article > p {
+  font-size: 18px;
+  line-height: 30px;
+  color: rgb(87, 86, 86);
+}
+.four > .row > div:last-child > article > span {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.four > .row > div:last-child > article > span > a {
+  height: 40px;
+  border: 1px solid black;
+  color: rgb(87, 86, 86);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 0;
+  padding: 0 5px;
+}
+
+.five {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/decoration-3.svg);
+  background-position: bottom 0 left 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.five > .row {
+  width: 100%;
+  height: 100%;
+  align-content: center;
+  justify-content: center;
+}
+.five > .row > figure {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.five > .row > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.five > .row > p {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(72, 71, 71);
+  font-size: 30px;
+  text-align: center;
+  padding: 0 280px;
+  margin: 50px 0;
+}
+.five > .row > div > nav {
+  width: 230px;
+  height: 40px;
+  border-radius: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  transition: 0.4s;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 10px 30px 0 rgba(0, 0, 0, 0.2);
+}
+.five > .row > div > nav:hover > a:nth-of-type(1) {
+  top: -50px;
+}
+.five > .row > div > nav:hover > a:nth-of-type(2) {
+  top: 0;
+}
+.five > .row > div > nav > * {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.five > .row > div > nav > figure {
+  width: 30px;
+  height: 30px;
+  background-color: #119D60;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+.five > .row > div > nav > figure > img {
+  width: 25px;
+  height: 25px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+}
+.five > .row > div > nav > a {
+  width: 190px;
+  position: absolute;
+  transition: 0.4s;
+}
+.five > .row > div > nav > a:nth-of-type(1) {
+  top: 0;
+  right: 0;
+}
+.five > .row > div > nav > a:nth-of-type(2) {
+  top: 100%;
+  right: 0;
+}
+
+.six {
+  width: 100%;
+  height: 150vh;
+  padding: 0 100px;
+}
+.six > .row {
+  width: 100%;
+  height: 100%;
+}
+.six > .row > div:nth-of-type(1) {
+  width: 100%;
+  height: 45vh;
+}
+.six > .row > div:nth-of-type(1) > * {
+  width: 50%;
+}
+.six > .row > div:nth-of-type(1) > span {
+  height: 100%;
+  padding-right: 140px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+}
+.six > .row > div:nth-of-type(1) > span > * {
+  width: 100%;
+}
+.six > .row > div:nth-of-type(1) > span > h3 {
+  font-size: 60px;
+  margin-top: 80px;
+}
+.six > .row > div:nth-of-type(1) > span > p {
+  font-size: 30px;
+  line-height: 40px;
+  color: rgb(89, 89, 89);
+}
+.six > .row > div:nth-of-type(1) > nav {
+  height: 38%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-end;
+  margin-top: 200px;
+}
+.six > .row > div:nth-of-type(1) > nav > * {
+  width: 40%;
+  height: 40%;
+}
+.six > .row > div:nth-of-type(1) > nav > div {
+  display: flex;
+}
+.six > .row > div:nth-of-type(1) > nav > div:nth-of-type(1), .six > .row > div:nth-of-type(1) > nav > div:nth-of-type(2) {
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+.six > .row > div:nth-of-type(1) > nav > div > figure {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #119D60;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+}
+.six > .row > div:nth-of-type(1) > nav > div > figure > img {
+  width: 20px;
+  height: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.six > .row > div:nth-of-type(1) > nav > div > p {
+  font-size: 16px;
+  color: rgb(76, 76, 76);
+}
+.six > .row > div:nth-of-type(2) {
+  width: 100%;
+  height: 75vh;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.six > .row > div:nth-of-type(2) > article {
+  width: 400px;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.six > .row > div:nth-of-type(2) > article:hover > figure > img {
+  width: 105%;
+  height: 105%;
+}
+.six > .row > div:nth-of-type(2) > article:hover > h2 {
+  text-decoration: underline;
+}
+.six > .row > div:nth-of-type(2) > article > * {
+  width: 100%;
+}
+.six > .row > div:nth-of-type(2) > article > figure {
+  height: 55%;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.six > .row > div:nth-of-type(2) > article > figure > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 0.7s;
+}
+.six > .row > div:nth-of-type(2) > article > h2 {
+  font-size: 22px;
+  line-height: 30px;
+  color: rgb(61, 61, 61);
+}
+.six > .row > div:nth-of-type(2) > article > h3 {
+  font-size: 65px;
+}
+.six > .row > div:nth-of-type(2) > article > p {
+  color: rgb(106, 104, 104);
+}
+.six > .row > div:nth-of-type(3) {
+  width: 100%;
+  height: 20vh;
+  justify-content: center;
+  align-items: center;
+}
+.six > .row > div:nth-of-type(3) > nav {
+  width: 230px;
+  height: 40px;
+  border-radius: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  transition: 0.4s;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 10px 30px 0 rgba(0, 0, 0, 0.2);
+}
+.six > .row > div:nth-of-type(3) > nav:hover > a:nth-of-type(1) {
+  top: -50px;
+}
+.six > .row > div:nth-of-type(3) > nav:hover > a:nth-of-type(2) {
+  top: 0;
+}
+.six > .row > div:nth-of-type(3) > nav > * {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.six > .row > div:nth-of-type(3) > nav > figure {
+  width: 30px;
+  height: 30px;
+  background-color: #CA346B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+.six > .row > div:nth-of-type(3) > nav > figure > img {
+  width: 25px;
+  height: 25px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+}
+.six > .row > div:nth-of-type(3) > nav > a {
+  width: 190px;
+  position: absolute;
+  transition: 0.4s;
+}
+.six > .row > div:nth-of-type(3) > nav > a:nth-of-type(1) {
+  top: 0;
+  right: 0;
+}
+.six > .row > div:nth-of-type(3) > nav > a:nth-of-type(2) {
+  top: 100%;
+  right: 0;
+}
+
+.footer {
+  width: 100%;
+  height: 70vh;
+  background-color: rgb(0, 0, 0);
+}
+.footer > .row {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.footer > .row > figure {
+  width: 30%;
+  height: 80%;
+}
+.footer > .row > figure > img {
+  width: 400px;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 40% 25% 50% 20%;
+}
+.footer > .row > nav {
+  width: 30%;
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+.footer > .row > nav > p {
+  font-size: 35px;
+  color: #119D60;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  font-style: italic;
+  transition: 0.4s;
+}
+.footer > .row > nav > p:hover {
+  font-size: 40px;
+  color: white;
+}
+.footer > .row > nav > a {
+  width: 40px;
+  height: 40px;
+  margin: 0 30px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer > .row > nav > a:hover {
+  background-color: #119D60;
+}
+.footer > .row > nav > a > img {
+  width: 30px;
+  height: 30px;
+}/*# sourceMappingURL=local.css.map */
